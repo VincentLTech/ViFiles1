@@ -1,0 +1,440 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* font-size: 20px; */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-sys tem, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Media Queries Syntax: 
+@media media type and (condition: breakpoint){
+  css rules
+} */
+/* @media screen and (min-width: 481px){
+  /* min-width is used because we build for mobile first, design for smallest to largest, starting with min-width */
+  /* rules in here will execute when we go over the breakpoint in condition */
+  /* .heroContainer{
+    width: 90%;
+  } */
+
+
+.nav-background{
+  background-color: darkgray;
+}
+
+.siteLogo > h1{
+  color:#00a8f6;
+}
+
+/* HERO SECTION*/
+.hero{
+  width: 100%;
+  /* background: rgb(12,150,53); */
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(179, 10, 10) 36%, rgb(0, 111, 246) 100%);
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.2);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+
+.heroContainer{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+  padding: 20px 0;
+}
+
+
+.heroWords{
+  margin:auto;
+  width: 70%;
+  font-size: 18px;
+}
+
+.heroWords > p{
+  margin: 10px 0 35px;
+}
+
+.heroRight{
+  margin:auto;
+  display: flex;
+  align-items: center;
+  
+}
+
+.heroRight > figure > img{
+  width: 300px;
+  border-radius: 100px; 
+}
+
+/* BACKGROUND SECTIONS */
+.darkSection{
+  background-color: rgb(20, 19, 19);
+  padding: 60px 0;
+}
+/*SITE TITLES*/
+.siteTitles{
+  color: white;
+}
+
+/* TOOLS SECTION*/
+.toolsSection{
+  display: flex;
+  justify-content: center;
+}
+
+.toolsBox{
+  width: 60%;
+  background-color:rgb(56, 56, 56);
+  border-radius: 20px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.toolsBox > h3{
+  color: white;
+}
+
+.toolsGrid{
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 50px));
+}
+
+.toolsGrid > .toolsPill > h6{
+  color: black;
+  background-color: #00a8f6;
+  /* font-size: larger; */
+  /* font-weight: bold; */
+  margin: 15px;
+  border-radius: 5px;
+  padding: 10px 0;
+  width: 150px;
+}
+
+/* PROJECTS SECTION*/
+
+.projectsSection{
+  background-color:rgb(36, 36, 36);
+  padding: 60px 0;
+}
+
+.projectsBox{
+  width: 80%;
+  /* background-color: rgb(56, 56, 56); */
+  margin: auto;
+}
+
+.projectCard{
+  color: white;
+  padding: 0px 0;
+  text-align: center;
+  background-color: #71817c;
+  border: solid 2px lightgray;
+  border-radius: 30px;
+  overflow: hidden;
+  max-width: 600px;
+  margin: 0 auto 50px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+
+.projectInfo > p {
+  width: 70%;
+  margin: 0 auto 20px;
+  text-align: start;
+}
+.projectInfo > h4 {
+  color: #00a8f6;
+  margin-top: 15px;
+}
+
+.projectCard > img {
+  width: 100%;
+  
+}
+.projectIcons{
+  margin-top: 15px;
+  
+}
+.projectIcons > img{
+  background-color: #00a8f6;
+  border-radius: 50%;
+  width: 40px;
+  margin: 0 8px;
+  cursor: pointer;
+  
+}
+
+.projectIcons > img:hover{
+  background-color: #00a8f6;
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -2px, 0px);
+}
+
+/* FREELANCE SECTION*/
+
+.freelanceBox{
+  width: 80%;
+  /* border: 1px solid rgb(172, 16, 16); */
+  margin: auto;
+}
+
+.freelanceProjects{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 2rem;
+  margin-top: 30px;
+}
+
+.freelanceCard{
+  background-color: rgb(44, 44, 44);
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.freelanceCard > img{
+  width: 200px;
+  height: 130px;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: top;
+  
+}
+
+.freelanceCard > div{
+  text-align: left;
+  margin:10px 20px 0;
+  color: white;
+}
+
+.freelanceCard > div > h6{
+  color: #00a8f6;
+}
+.wordpress{
+  color: rgb(133, 131, 131);
+  font-weight: bold;
+}
+
+/* ABOUT SECTION */
+.about{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+.about > img{
+  margin-bottom: 20px;
+}
+
+
+/* Every Category has a green line afterwards */
+.siteHeadings{
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 40px;
+}
+.siteHeadings::after{
+  content: "";
+  display: block;
+  width: 150px;
+  position: relative;
+  height: 1px;
+  margin-left: 20px;
+  background-color: #027a56;
+}
+
+.contact{
+  color: white;
+  font-size: 18px;
+}
+
+.socialsContainer{
+  text-align: center;
+  margin: 30px 0 0;
+}
+.socialsContainer > img{
+  background-color: #00a8f6;
+  margin: 10px;
+  border-radius: 10px;
+  height: 50px;
+}
+
+.socialsContainer > img:hover{
+  background-color: #00a8f6;
+  cursor: pointer;
+  transform: translate3d(0px, -2px, 0px);
+}
+
+.footerBox > h6{
+  color: #00a8f6;
+  text-align: center;
+}
+
+@media screen and (max-width: 481px){
+  .hero{
+    height: auto;
+    background: linear-gradient(135deg, rgb(167, 200, 113) 0%, rgb(10, 86, 179) 36%, rgb(0, 45, 246) 100%);
+  }
+  .heroContainer{
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+  .heroWords{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .heroRight > figure > img{
+    width: 175px;
+  }
+  .about > img{
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .hero{
+    padding: 100px 0;
+  }
+  .heroContainer{
+    width: 70%;
+  }
+  .heroWords{
+    margin: auto 0px;
+  }
+  .heroWords > h2{
+    font-size: 45px;
+  }
+  .heroWords > p{
+    font-size: 22px;
+  }
+  /* .projectCard > img {
+    /* width: 45%; */
+  /* }  */
+  .toolsSection{
+    padding: 150px 0;
+  }
+  .toolsGrid{
+    margin: 30px 0;
+  }
+  .about > img{
+    margin-bottom: 45px;
+  }
+  .aboutSummary{
+    width: 60%;
+    margin: auto;
+    text-align: start;
+  }
+  .contactInfoBox > p {
+    width: 40%;
+  }
+}
+
+
+
+
+/*Submit Form */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////Repositories */
+.RepositorySection{
+  background-color:rgb(36, 36, 36);
+  padding: 60px 0;
+}
+.RepositoryButton {
+  width: 100%;
+  background-color: #f30606;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.RepositoryButton:hover {
+  background-color: #c70a0a;
+}
+
+.RepositoryIcons{
+  margin-top: 15px;
+  background-color: #00a8f6;
+  border-radius: 50%;
+  width: 40px;
+  margin: 0 8px;
+  cursor: pointer;
+  
+}
+.RepositoryIcons > img{
+  background-color: #00a8f6;
+  border-radius: 50%;
+  width: 40px;
+  margin: 0 8px;
+  cursor: pointer;
+  
+}
+
+.RepositoryIcons > img:hover{
+  background-color: #00a8f6;
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -2px, 0px);
+}
