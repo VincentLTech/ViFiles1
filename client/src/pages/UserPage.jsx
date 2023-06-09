@@ -9,7 +9,7 @@ const UserPage = (props) => {
         <>
             <NavBar/>
             <Login/>
-            {/* <Register/> */}
+            <Register/>
             <Contact/>
             <Footer/>
         </>
