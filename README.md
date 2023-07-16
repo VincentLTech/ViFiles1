@@ -13,44 +13,41 @@ ___
 ___
 
 ## Background
-It was a solo project that I wanted to create to practice my knowledge in Python/Flask/MySQL Development.
+I wanted to showcase my skills and knowledge of the computer world to everyone.
 
 [Return to Table of Contents](#Table-of-Contents)
 
 ___
 
 ## Features
-* Guide to how the websit works
+* Guide to how the website works
 
-* Try Registering for your account for the first time. Or Login if you have already registered
+When you enter my website, you would notice that there are 4 categories:
+Projects
+About
+Contact
+Repositories
+When you click on each of them, they will take you to different layers of the website that showcase all my work and projects!
 
-<img src="Screenshots\Screenshot1.jpg" alt="Game One" width="600">  
+<img src="Screenshots\Hero.jpg" alt="1" width="600">  
 
-* If this is yout first time registering for your account, add your name email and password.
+<img src="Screenshots\Language.jpg" alt="2" width="600">  
 
-<img src="Screenshots\Screenshot2.jpg" alt="Game Two" width="600">  
 
-* If this is yout first time registering for your account, add you profile picture, your username and self description.
 
-<img src="Screenshots\Screenshot3.jpg" alt="MostlyComplete" width="600">  
+<img src="Screenshots\Projects.jpg" alt="3" width="600">  
 
-<img src="Screenshots\Screenshot4.jpg" alt="Game won" width="600">  
+* Notice how there are are two symbols for each project/websites. The github symbol will take you to the github project page and the internet symbol will take you to the site itself.
 
-* To get started, click on create a new project.
+<img src="Screenshots\Freelance.jpg" alt="4" width="600">  
 
-<img src="Screenshots\Screenshot5.jpg" alt="FinalMessage" width="600">  
+<img src="Screenshots\About.jpg" alt="5" width="600">  
 
-* Add your project name and description and other information it will ask of your project.
 
-<img src="Screenshots\Screenshot6.jpg" alt="MostlyComplete" width="600">  
+<img src="Screenshots\Screenshot8.jpg" alt="6" width="600">  
+* So there is a secret feature in the website that is only exclusive to me.(I won't tell you how to get there) There is actually a 5th category called Control. When you get there, 
 
-* After posting, you will be able to see the projects you deployed in the site.
-
-<img src="Screenshots\Screenshot7.jpg" alt="Game won" width="600">  
-
-* And you will be able to see your project in the global depot page where you can see other projects from other users and add a like to them.
-
-<img src="Screenshots\Screenshot8.jpg" alt="FinalMessage" width="600">  
+<img src="Screenshots\Screenshot8.jpg" alt="6" width="600">  
 
 
 [Return to Table of Contents](#Table-of-Contents)
