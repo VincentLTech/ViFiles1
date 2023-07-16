@@ -1,70 +1,94 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    Project Builder 
+</h1>
+___
 
-## Available Scripts
+## Table of Contents
+* [Background](#Background)
+* [Features](#Features)
+* [Technologies Used](#Technologies-Used)
+* [Running Locally](#Running-Locally)
 
-In the project directory, you can run:
+___
 
-### `npm start`
+## Background
+It was a solo project that I wanted to create to practice my knowledge in Python/Flask/MySQL Development.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Return to Table of Contents](#Table-of-Contents)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+___
 
-### `npm test`
+## Features
+* Guide to how the websit works
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Try Registering for your account for the first time. Or Login if you have already registered
 
-### `npm run build`
+<img src="Screenshots\Screenshot1.jpg" alt="Game One" width="600">  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* If this is yout first time registering for your account, add your name email and password.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="Screenshots\Screenshot2.jpg" alt="Game Two" width="600">  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* If this is yout first time registering for your account, add you profile picture, your username and self description.
 
-### `npm run eject`
+<img src="Screenshots\Screenshot3.jpg" alt="MostlyComplete" width="600">  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src="Screenshots\Screenshot4.jpg" alt="Game won" width="600">  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* To get started, click on create a new project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="Screenshots\Screenshot5.jpg" alt="FinalMessage" width="600">  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Add your project name and description and other information it will ask of your project.
 
-## Learn More
+<img src="Screenshots\Screenshot6.jpg" alt="MostlyComplete" width="600">  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* After posting, you will be able to see the projects you deployed in the site.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="Screenshots\Screenshot7.jpg" alt="Game won" width="600">  
 
-### Code Splitting
+* And you will be able to see your project in the global depot page where you can see other projects from other users and add a like to them.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img src="Screenshots\Screenshot8.jpg" alt="FinalMessage" width="600">  
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Return to Table of Contents](#Table-of-Contents)
+___
 
-### Making a Progressive Web App
+## Technologies Used
+* HTML
+* CSS
+* Python
+* Flask
+* MySQL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[Return to Table of Contents](#Table-of-Contents)
 
-### Deployment
+___
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Running Locally
 
-### `npm run build` fails to minify
+1. Clone this repository
+    ```
+    https://github.com/GalacticKnight/Project-Builder.git
+    ```
+2. Move into the repository
+    ```
+    cd Project-Builder
+    ```
+3. Run these commands ONE at a time
+    ```
+    pipenv install flask
+    pipenv shell
+    pipenv install flask-bcrypt
+    pipenv install PyMySQL flask
+    ```
+4. Run this command
+    ```
+    python server.py
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Return to Table of Contents](#Table-of-Contents)
