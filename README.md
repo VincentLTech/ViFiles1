@@ -44,7 +44,7 @@ When you click on each of them, they will take you to different layers of the we
 <img src="Screenshots\About.jpg" alt="5" width="600">  
 
 * The 4th category is special. It will take you to a different page that contains all of my repositories from github that I wish to show in my website.
-* 
+
 <img src="Screenshots\Repositories.jpg" alt="6" width="600">  
 * So there is a secret feature in the website that is only exclusive to me.(I won't tell you how to get there) There is actually a 5th category called Control. When you get there, there is an engine that reads from an api that contains all the projects and repositories from my github and shows them all to me. If I so desire to add them to my website, I can press on the "create" button and it will push the project in the respository category.
 
